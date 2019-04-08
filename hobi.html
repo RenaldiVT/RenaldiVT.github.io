@@ -1,0 +1,164 @@
+<html>
+    <link rel="shortcut icon" href="ikon.ico">
+    <head>
+        <title> Renaldi Valentino T
+        </title>
+        <meta name="viewport" content="width=device-width, initialscale=1">
+        <style>
+            .container {
+                width: 100%;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 30px;
+                grid-gap: 0px;
+            }
+            .topbar {
+                background: lightgreen;
+                grid-row-start: 1;
+                grid-column-start: 1;
+                grid-column-end: 5;
+            }
+            .navbar {
+                background: black;
+                grid-row-start: 2;
+                grid-column-start: 1;
+                grid-column-end: 5;
+            }
+            body {margin: 0;}
+            ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+            ul.navbar li {float: left;}
+            ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            ul.navbar li a:hover:not(.active) {background-color: #111;}
+            ul.navbar li a.active {background-color: lightseagreen;}
+            ul.navbar li.right {float: right;}
+            @media screen and (max-width: 600px) {
+            ul.navbar li.right,
+            ul.navbar li {float: none;}
+            }
+
+            .content
+            {
+                background: yellow;
+                border: 4px solid black;
+                margin-top: 20px;
+                margin: 40px;
+                padding: 40px;
+                grid-row-start: 3;
+                grid-column-start: 1;
+                grid-column-end: 5;
+                width: auto;
+                height: auto;
+            }
+            .content2
+            {
+                width: 150px;
+                margin: 10px;
+                padding: 20px;
+                margin-top: 15px;
+                float: left;
+            }
+            .content2 img
+            {
+                width: 150px;
+            }
+            @media(max-width: 1024px)
+            .content2 img
+            {
+                width: 100px;
+            }
+            @media(max-width: 800px)
+            .content2 img
+            {
+                width: 50px;
+            }
+            @media(max-width: 768px)
+            .content2 img
+            {
+                width: 10px;
+            }
+            .hobi
+            {
+                background: transparent;
+                height: auto;
+                width: auto;
+                margin-top: 10px;
+                margin: 15px;
+                padding: 10px;
+            }
+            .isi
+            {
+                background: transparent;
+                height: auto;
+                width: auto;
+                margin-top: 10px;
+                margin: 15px;
+                padding: 10px;  
+            }
+            .footer
+            {
+            grid-row-start: 5;
+            grid-column-start: 1;
+            grid-column-end: 6;
+            max-width: 100%;
+            padding: 5px;
+            height: auto;
+            background: lightseagreen;
+            }
+        </style>
+    </head>
+        <body>
+            <div class="container">
+            <div class='topbar'><font face="arial" size=2pt color=white><b><marquee loop="1000">Selamat Datang Di Website Saya :)</marquee></b></font></div>
+            <div class="navbar">
+                <nav>
+                    <ul class="navbar">
+                        <font face="arial" size=2pt color=white><b>
+                        <li><a href="index.html">ABOUT ME</a></li>
+                        <li><a class="active" href="hobi.html">HOBBY & ENTHUSIAST</a></li>
+                        <li><a href="galeri.html">GALLERY</a></li>
+                        <li><a href="artikel.html">ARTICLE</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <div class="hoby">
+                    <font face="arial" size=6pt color=green><b>
+                        <p>HOBY</p>
+                <div class="content2">
+                        <img src="gambar/hobi.jpg" alt></div>
+                </div>
+            <div class="isi" align =justify>
+                    <font face="arial" size=4pt color=black><b>
+                    Hobi? apa itu hobi? sesuatu yang sebenarnya tak perlu ditanyakan karena setiap orang tentu memilikinya. 
+                    Namun tak ada salahnya saya di sini akan sedikit berbicara mengenai Hobi atau kegemaran. Oke deh, langsung saja saya mulai dari pengertian hobi. 
+                    Banyak orang mengartikan apa itu hobi. Pada dasarnya hobi adalah sesuatu yang disenangi dan kerap sekali dilakukan.
+                    JIka membicarakan tentang hobi saya, hobi saya adalah bermain game, Mebongkar PC dan mencari apa penyebab masalah pada pc tersebut. 
+                    Saya sangat senang dengan hobi game saya, karena itu dapat menghilangkan beban pikiran setelah kuliah dan kerja saya.
+                    Tujuan hobi adalah untuk memenuhi keinginan dan mendapatakan kesenangan . Terdapat berbagai macam jenis hobi seperti mengumpulan sesuatu (Koleksi), 
+                    membuat, memperbaiki, bermain dan pendidikan dewasa. Hobi mampu mengisi waktu luang seseorang yang kosong dengan melakukan kegitan Hobi yang dia senangi. 
+                    Hobi juga mampu membuat seseorang mengenali bagaiman diri seseorang tersebut.
+                    itu saja penjelasan tentang hobi saya... Terima kasih...
+            </div>
+            </div>
+            <div class='footer'>
+                <font face="arial" size=2pt color=black><b>
+                <p>Copyright by RENALDI VALENTINO TALUMEPA</p>
+                <p>instagram : rekatalumepa</p>
+                <p>facebook : Renaldi Valentino Talumepa</p>
+                <p>Phone : 0838-0413-4338</p>
+                </div>
+
+        </body>
+</html>
